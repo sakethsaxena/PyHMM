@@ -9,9 +9,17 @@ Installations:
   requires python2
 
 Steps to run:
+
   Download the files and extract them
   use the following command to run the model:
   
   `python pyHMM.py Algined_nifH_Training.fa.txt model.json`
+
+Known Issues:
+  - some logical issues in implementation of viterbi algorithm producing erroeneous results
+
+Still to do:
+  - Fix viterbi and FA implementations 
+  - make model generation more robust
 
 Contact: saketh.saxena@sjsu.edu in case of issues
